@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box1 h2{
+    float: left;
+}
+.box1 button{
+    float: right;
+}
+.container{
+    margin-top: 20px;
+}
+h6{
+    text-align: center;
+    background-color: #ff0000;
+   
+    padding: 15px;
+}
+.vertical-center {
+    vertical-align: middle !important;
+    
+}
+.custome-sty{
+  font-size: 17px;
+}
+#employee-management-system {
+    display: inline-block; /* Ensures margin works correctly */
+    margin-top: 50px;
+    margin-bottom: 10px;
+    background-color: #007bff; /* A nicer shade of blue */
+    color: white; /* Text color to make it readable */
+    padding: 20px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: Arial, sans-serif; /* Font family for better readability */
+    text-align: center; /* Center the text */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
+}
